@@ -1,12 +1,13 @@
 import { StatusBar, SafeAreaView, Text, View } from 'react-native';
 import Home from "./src/screens/home"
+import Rotas from "./src/routes/routes"
 export default function App() {
   return (
-    <View>
+    <View style={{flex:1}}>
      
-      <StatusBar style="auto" /> 
+      <StatusBar/> 
       <SafeAreaView/>
-      <Home/>
+      <Rotas/>
     </View>
   );
 }
